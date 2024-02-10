@@ -1,0 +1,105 @@
+
+:root{
+    --primario:#9c2780;
+    --primarioOscuro: #891190;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233,287,2);
+    --blanco:#fff;
+    --negro:#000;
+
+    --fuente:'Staatliches', sans-serif;
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.contenedor{
+    padding: 20px auto;
+}
+.target{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+                       
+}
+.target_input{
+  max-width: 500px;
+  padding: 0 0 0 100px;
+}
+
+.target__imagen{
+    
+margin: 0 0 0 300px;
+min-width: 250px;
+   
+}
+
+
+form{
+    display: inline-block;
+   
+}
+
+.target__input_a{
+    background-color: var(--primario);
+    margin:20px 0;
+    border: none;
+    border: 4px solid var(--negro);
+    
+    min-width: 180px;
+    color: var(--blanco);
+  
+}
+
+.target__input_b{
+    background-color: var(--primario);
+    margin:0 0 20px 0;
+    border: none;
+    border: 4px solid var(--negro);
+
+    color: var(--blanco);
+    display: inline-block;
+    width: 48%;
+
+}
+
+
+.target_boton{
+    background-color: var(--secundario);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+
+
+}
+
+
+@media (max-width: 760px){
+    
+    
+.target__imagen{
+    
+    margin: 0px;
+    min-width: 250px;
+       
+    }
+
+
+    .target_input{
+        max-width: 500px;
+        padding: 0px;
+      }
+}

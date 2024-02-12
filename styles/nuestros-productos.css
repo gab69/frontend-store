@@ -24,7 +24,7 @@
    
     grid-template-columns: repeat(3, 1fr);
     }
-    
+
 }
 .producto{
  background-color: var(--primarioOscuro);
@@ -83,5 +83,9 @@ background-image: url("../img/grafico1.jpg");
     }
 }
 
-
+@media (max-width: 642px){
+.producto{
+    height: 375px;
+};
+}
 
